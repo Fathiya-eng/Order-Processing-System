@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fathi\\OneDrive\\Documents\\swiq-solution\\Solution30\\",
+  "WorkspaceRootPath": "C:\\Users\\sharo\\OneDrive\\Desktop\\New folder\\Order-Processing-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91F64B9D-CDC3-4CA2-8AB1-0732B41BA8AB}|Project-Solution01\\Project-Solution01.csproj|c:\\users\\fathi\\onedrive\\documents\\swiq-solution\\solution30\\project-solution01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91F64B9D-CDC3-4CA2-8AB1-0732B41BA8AB}|Project-Solution01\\Project-Solution01.csproj|solutionrelative:project-solution01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{952FED9F-EFB9-9D13-D037-EE37366AD18F}|Project-Solution01\\Project-Solution01.csproj|c:\\users\\sharo\\onedrive\\desktop\\new folder\\order-processing-system\\project-solution01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{952FED9F-EFB9-9D13-D037-EE37366AD18F}|Project-Solution01\\Project-Solution01.csproj|solutionrelative:project-solution01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,16 +13,6 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 802,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            }
-          ]
-        },
-        {
           "DockedHeight": 206,
           "SelectedChildIndex": 0,
           "Children": [
@@ -30,28 +20,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fathi\\OneDrive\\Documents\\swiq-solution\\Solution30\\Project-Solution01\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\sharo\\OneDrive\\Desktop\\New folder\\Order-Processing-System\\Project-Solution01\\Program.cs",
               "RelativeDocumentMoniker": "Project-Solution01\\Program.cs",
-              "ToolTip": "C:\\Users\\fathi\\OneDrive\\Documents\\swiq-solution\\Solution30\\Project-Solution01\\Program.cs",
+              "ToolTip": "C:\\Users\\sharo\\OneDrive\\Desktop\\New folder\\Order-Processing-System\\Project-Solution01\\Program.cs",
               "RelativeToolTip": "Project-Solution01\\Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAowGsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwMwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T05:09:04.855Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 140,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
