@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fathi\\.nuget\\packages\\": {},
+    "C:\\Users\\sharo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fathi\\OneDrive\\Documents\\swiq-solution\\Solution30\\Project-Solution01\\Project-Solution01.csproj",
+      "projectUniqueName": "C:\\Users\\sharo\\OneDrive\\Desktop\\New folder\\Order-Processing-System\\Project-Solution01\\Project-Solution01.csproj",
       "projectName": "Project-Solution01",
-      "projectPath": "C:\\Users\\fathi\\OneDrive\\Documents\\swiq-solution\\Solution30\\Project-Solution01\\Project-Solution01.csproj",
-      "packagesPath": "C:\\Users\\fathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fathi\\OneDrive\\Documents\\swiq-solution\\Solution30\\Project-Solution01\\obj\\",
+      "projectPath": "C:\\Users\\sharo\\OneDrive\\Desktop\\New folder\\Order-Processing-System\\Project-Solution01\\Project-Solution01.csproj",
+      "packagesPath": "C:\\Users\\sharo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sharo\\OneDrive\\Desktop\\New folder\\Order-Processing-System\\Project-Solution01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\fathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sharo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -69,30 +69,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.26, 8.0.26]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.26, 8.0.26]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.26, 8.0.26]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.26, 8.0.26]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -110,37 +110,113 @@ namespace Project_Solution01
     // =========================
     // PRODUCT (ABSTRACTION)
     // =========================
+    public abstract class Product
+    {
+        public string Id { get; private set; }
 
+        public string Name { get; private set; }
+
+        public decimal Price { get; protected set; }
+
+        public int StockQuantity { get; set; }
+
+        public Product(
+            string id,
+            string name,
+            decimal price,
+            int stockQuantity)
+        {
+            Id = id;
+            Name = name;
+            Price = price;
+            StockQuantity = stockQuantity;
+        }
+
+        public virtual decimal CalculatePrice()
+        {
+            return Price;
+        }
+    }
 
     // =========================
     // ELECTRONICS PRODUCT
     // =========================
+    public class ElectronicsProduct : Product
+    {
+        public ElectronicsProduct(
+            string id,
+            string name,
+            decimal price,
+            int stockQuantity)
+            : base(id, name, price, stockQuantity)
+        {
+        }
 
+        public override decimal CalculatePrice()
+        {
+            // 10% extra fee
+            return Price * 1.10m;
+        }
+    }
 
     // =========================
     // CLOTHING PRODUCT
     // =========================
-    
+    public class ClothingProduct : Product
+    {
+        public ClothingProduct(
+            string id,
+            string name,
+            decimal price,
+            int stockQuantity)
+            : base(id, name, price, stockQuantity)
+        {
+        }
+
+        public override decimal CalculatePrice()
+        {
+            // 5% discount
+            return Price * 0.95m;
+        }
+    }
 
     // =========================
     // ORDER ITEM
     // =========================
- 
+    public class OrderItem
+    {
+        public Product Product { get; private set; }
 
+        public int Quantity { get; private set; }
+
+        public decimal SubTotal
+        {
+            get
+            {
+                return Product.CalculatePrice() * Quantity;
+            }
+        }
+
+        public OrderItem(Product product, int quantity)
+        {
+            Product = product;
+            Quantity = quantity;
+        }
+    }
     // =========================
     // PAYMENT (ABSTRACTION)
     // =========================
- 
+
 
     // =========================
     // CASH PAYMENT
     // =========================
-   
+
 
     // =========================
     // CREDIT CARD PAYMENT
     // =========================
- 
+
 
     // =========================
     // PAYPAL PAYMENT
@@ -150,43 +226,43 @@ namespace Project_Solution01
     // =========================
     // ORDER
     // =========================
-    
-
-        // =========================
-        // ADD PRODUCT
-        // =========================
-      
-
-        // =========================
-        // CALCULATE TOTAL
-        // =========================
-      
-
-        // =========================
-        // SET PAYMENT
-        // =========================
-      
-
-        // =========================
-        // PROCESS ORDER
-        // =========================
-      
-
-        // =========================
-        // SHIP ORDER
-        // =========================
-     
-
-        // =========================
-        // DELIVER ORDER
-        // =========================
-      
 
 
-        // =========================
-        // PRINT SUMMARY
-        // =========================
-   
+    // =========================
+    // ADD PRODUCT
+    // =========================
 
-    }
+
+    // =========================
+    // CALCULATE TOTAL
+    // =========================
+
+
+    // =========================
+    // SET PAYMENT
+    // =========================
+
+
+    // =========================
+    // PROCESS ORDER
+    // =========================
+
+
+    // =========================
+    // SHIP ORDER
+    // =========================
+
+
+    // =========================
+    // DELIVER ORDER
+    // =========================
+
+
+
+    // =========================
+    // PRINT SUMMARY
+    // =========================
+
+
+}
 }
